@@ -30,7 +30,7 @@ public class MsgHandler extends AbstractHandler {
     public void init() {
         openAiClient = OpenAiClient.builder()
                 .apiHost("https://openai.nooc.ink/")
-                .apiKey("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")
+                .apiKey("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")
                 .build();
     }
 
