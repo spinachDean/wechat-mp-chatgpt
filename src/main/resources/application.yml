@@ -16,7 +16,7 @@ wx:
       port: 6379
       password:
     configs:
-      - appId: xxx # 第一个公众号的appid
-        secret: xxx # 公众号的appsecret
-        token: xxx # 接口配置里的Token值
-        aesKey: xxx # 接口配置里的EncodingAESKey值
+      - appId: wx0fedb3e6838f924e # 第一个公众号的appid
+        secret: c4582c979dc130fd5358fb7b80e643db # 公众号的appsecret
+        token: K9XWJ26P6wxcBJnR29tChY2RPtHxWR5W # 接口配置里的Token值
+        aesKey: zKdktt1aT5t8e852cK9H5IEAKb1c5l28sTADtD15Z5K # 接口配置里的EncodingAESKey值

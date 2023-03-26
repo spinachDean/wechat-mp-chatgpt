@@ -103,6 +103,12 @@ public class WxPortalController {
         return out;
     }
 
+    @GetMapping("/test")
+    public String test() {
+        System.out.println("test");
+        return "t";
+    }
+
     private WxMpXmlOutMessage route(WxMpXmlMessage message) {
         try {
             return this.messageRouter.route(message);
